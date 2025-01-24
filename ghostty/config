@@ -1,0 +1,32 @@
+# default behavior
+shell-integration = fish
+shell-integration-features = no-cursor
+
+# styling
+window-theme = dark
+window-decoration = true
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+theme = OneHalfDark
+macos-titlebar-style = hidden
+background-opacity = .5
+background-blur-radius = 20
+foreground = acb1bd
+background = 21242a
+
+font-family = JetbBrainsMono
+font-size = 16
+
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+
+# keybindings
+keybind = super+r=reload_config 
+keybind = super+i=inspector:toggle
+
+# updates
+auto-update = check
+auto-update-channel = stable
